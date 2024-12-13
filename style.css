@@ -1,0 +1,1268 @@
+/*netflix backgroundimage*/
+.opening>img{
+    height: 540px;
+    width: 1253px;
+}
+.opening{
+    height: 540px;
+    width: 1253px;
+}
+/*navbar*/
+#navbar .netflixclass .order{
+    display: block;
+}
+#navbar .netflix a{
+    text-align: left;
+    display: block;
+    color: red;
+    font-weight: bolder;
+    border-radius: 10px;
+    width: 148px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif; 
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    text-decoration: none;
+}
+#navbar .netflixclass .netflix:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+#navbar .order #topmoviesnav{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    color: white;
+    width: 135px;
+    height: 30px;
+    
+    text-decoration: none;
+}
+#navbar .order #topmoviesnav:hover{
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: brown;
+}
+#navbar .order #languages{
+    color: white;
+    width: 160px;
+    height: 35px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar .order #signin{
+    color: white;
+    width: 90px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+#navbar .order{
+    list-style: none;
+    margin-top: 30px;
+}
+#navbar .order{
+    display: flex;
+    justify-content: space-around;
+    left: 55%;
+    column-gap: 30px;
+    position: absolute;
+    top: 10px;
+}
+#navbar .order #languages:hover{
+    cursor: pointer;
+    color: black;
+    background-color: brown;
+    border-radius: 5px;
+}
+#navbar .order #signin:hover{
+    cursor: pointer;
+    background-color: brown;
+    color: black;
+    border-radius: 5px;
+}
+#navbar{
+    height: 50px;
+    background: none;
+}
+.background .title{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    background: none;
+}
+.background .title>h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+}
+.background .title h5{
+    font-size: 20px;
+}
+.opening .togetstarted{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    width:180px;
+    height: 56px;
+    position: absolute;
+    top: 460px;
+    left: 770px;
+}
+.enteryouremail{
+    height: 40px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    top: 467px;
+    left: 400px;
+}
+.enteryouremail>p{
+    color: black;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.opening .togetstarted>p{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: 14px;
+}
+body{
+    background-color: black;
+}
+/*css code for trending movies*/
+.trending>h2{
+    color:  white;
+    font-size: 40px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 50px;
+}
+.trending{
+    margin-top: 40px;
+}
+.trending .india{
+    height: 35px;
+    width: 100px;
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+    top: 100px;
+}
+.trending .india:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.trending .movies{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    height: 35px;
+    width: 100px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: solid white;
+}
+.trending .movies:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.topmovies .top10 .khelkhelmein{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+.topmovies .top10 .kandal{
+    height: 310px;
+    width: 204px;
+    position: relative;
+    top: 162px;
+    left: 160px;
+}
+.top10 .goat{
+    height: 290px;
+    width: 200px;
+    position: relative;
+    top: 140px;
+    left: 220px;
+}
+.top10 .mathuvadalara{
+    height: 290px;
+    width: 200px;
+    position: relative;
+    top: 140px;
+    left: 276px;
+}
+
+.topmovies .top10{
+    height: 500px;
+    width: 900px;
+}
+/*css code for more reasons to join section*/
+.morereasonstojoin{
+    font-size: 40px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 100px;
+}
+.join .stories{
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 160px;
+    background-color: gray;
+    display: inline-block;
+    border-style: groove;
+    column-gap: 20px;
+}
+.join .stories>p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-left: 7px;
+    padding-top: 20px;
+}
+.join .plans{
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 160px;
+    background-color: gray;
+    display: inline-block;
+    border-style: groove;
+}
+.join .plans>p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-left: 7px;
+    padding-top: 20px;
+}
+.join .kids{
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 160px;
+    background-color: gray;
+    display: inline-block;
+    border-style: groove;
+}
+.join .kids>p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-left: 7px;
+    margin-top: 22px;
+}
+.join .phone{
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 160px;
+    background-color: gray;
+    display: inline-block;
+    border-style: groove;
+}
+.join .phone>p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding-left: 7px;
+    padding-top: 20px;
+}
+.join{
+    padding-left: 34px;
+    padding-right: 34px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+} 
+/*css code for frequently asked questions section*/
+.questions .frequently_asked_questions{
+    color: white;
+    padding-left: 120px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.questions .whatisnetflix{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    height: 50px;
+    position: absolute;
+    left: 13%;
+}
+.questions .whatisnetflix>p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.questions .howmuchdoesnetflixcost{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    width: 71%;
+    height: 50px;
+    position: relative;
+    left: 12.5%;
+    top: 70px;
+}
+.questions .howmuchdoesnetflixcost>p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.questions .wherecaniwatch{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    width: 71%;
+    height: 50px;
+    position: relative;
+    left: 12.5%;
+    top: 70px;
+}
+.questions .wherecaniwatch>p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    margin-top: 20px;
+}
+.questions .howcanicancel{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    width: 71%;
+    height: 50px;
+    position: relative;
+    left: 12.5%;
+    top: 70px;
+}
+.questions .howcanicancel>p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    margin-top: 20px;
+}
+.questions .whatcaniwatchonnetflix{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    width: 71%;
+    height: 50px;
+    position: relative;
+    left: 12.5%;
+    top: 70px;
+}
+.questions .whatcaniwatchonnetflix>p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    margin-top: 20px;
+}
+.questions{
+    height: 600px;
+}
+/*css code for get started*/
+.questions .getstarted>p{
+    border-radius: 30px;
+    color: black;
+    background-color: red;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    width: 160px;
+    font-size: 28px;
+    left: 43%;
+    top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.questions .getstarted>p:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+/*css code for footer*/
+.footerclass .call>p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.footerclass .container .column1{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    list-style: none;
+    text-decoration: none;
+}
+.footerclass .container .column1 li:hover{
+    color: red;
+
+}
+.footerclass .container .column1>ul{
+    list-style: none;
+}
+.footerclass .container .column2{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footerclass .container .column2 li:hover{
+    color: red;
+}
+.footerclass .container .column2>ul{
+    list-style: none;
+}
+.footerclass .container .column3{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.footerclass .container .column3 li:hover{
+    color: red;
+}
+.footerclass .container .column3>ul{
+    list-style: none;
+}
+.footerclass .container .column4{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.footerclass .container .column4 li:hover{
+    color: red;
+}
+.footerclass .container .column4>ul{
+    list-style: none;
+}
+.footerclass .container{
+    display: flex;
+    column-gap: 50px;
+    padding-left: 130px;
+    padding-top: 40px;
+}
+.footerclass .bottom{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.footerclass{
+    height: 350px;
+}
+/*css code for trending english movies*/
+.englishmovies .littlewomen{
+    height: 300px;
+    width: 200px;
+}
+.englishmovies .seven{
+    height: 300px;
+    width: 200px;
+}
+.englishmovies .uncharted{
+    height: 300px;
+    width: 200px;
+}
+.englishmovies .underground{
+    height: 300px;
+    width: 200px;
+}
+.englishmovies{
+    display: flex;
+    gap: 65px;
+    padding-left: 100px;
+    align-items: center;
+}
+/*css code for trending hindi movies*/
+.trendingenglishmovies>p{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.trendinghindimovies>p{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.hindimovies .bhool{
+    height: 300px;
+    width: 200px;
+}
+.hindimovies .uljah{
+    height: 300px;
+    width: 200px;
+}
+.hindimovies .animal{
+    height: 300px;
+    width: 200px;
+}
+.hindimovies .ctrl{
+    height: 300px;
+    width: 200px;
+}
+.hindimovies{
+    display: flex;
+    gap: 65px;
+    padding-left: 100px;
+    align-items: center;
+}
+/*css code for trending kdramas*/
+.trendingkdramas{
+    color: white;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.kdramas .lovenextdoor{
+    height: 300px;
+    width: 200px;
+}
+.kdramas .lovelyrunner{
+    height: 300px;
+    width: 200px;
+}
+.kdramas .queenoftears{
+    height: 300px;
+    width: 200px;
+}
+.kdramas .mydemon{
+    height: 300px;
+    width: 200px;
+}
+.kdramas{
+    display: flex;
+    gap: 65px;
+    padding-left: 100px;
+    align-items: center;
+}
+body{
+    max-width: 1253px;
+    min-width: 300px;
+}
+.opening{
+    max-width: 500px;
+    max-height: 500px;
+}
+.opening .background{
+    max-width: 500px;
+}
+#navbar .order{
+    max-width: 500px;
+    min-width: 300px;
+}
+/*----media queries----*/
+@media screen and (max-width: 500px)
+{
+    .opening>img{
+        height: 575px;
+        width: 1253px;
+        
+    }
+    .opening{
+        width: max-content;
+    }
+    .opening .background{
+        max-width: 500px;
+        min-width: 500px;
+    }
+    #navbar .order{
+        width: max-content;
+        
+    }
+    .opening{
+        height: 540px;
+        width: 1253px;
+        
+        
+    }
+    #navbar .netflix a{
+        text-align: left;
+        display: block;
+        color: red;
+        font-weight: bolder;
+        border-radius: 10px;
+        width: 148px;
+        font-size: 60px;
+        font-family: Arial, Helvetica, sans-serif; 
+        position: absolute;
+        top: 30px;
+        left: 70px;
+        width: min-content;
+        text-decoration: none;
+    }
+    #navbar .netflixclass .netflix:hover{
+        cursor: pointer;
+        background-color: brown;
+        color: white;
+        border-radius: 5px;
+    }
+    #navbar .order #topmoviesnav{
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        color: white;
+        width: 135px;
+        height: 30px;
+        min-width: 500px;
+        width: fit-content;
+        text-decoration: none;
+    }
+    #navbar .order #topmoviesnav:hover{
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: brown;
+    }
+    #navbar .order #languages{
+        color: white;
+        width: 160px;
+        height: 35px;
+        font-weight: bolder;
+        font-size: 30px;
+        width: fit-content;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #navbar .order #signin{
+        color: white;
+        width: 90px;
+        height: 30px;
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    #navbar .order{
+        list-style: none;
+        margin-top: 30px;
+        min-width: 500px;
+    }
+    #navbar .order{
+        display: flex;
+        justify-content: space-around;
+        left: 55%;
+        column-gap: 30px;
+        position: absolute;
+        top: 10px;
+    }
+    #navbar .order #languages:hover{
+        cursor: pointer;
+        color: black;
+        background-color: brown;
+        border-radius: 5px;
+    }
+    #navbar .order #signin:hover{
+        cursor: pointer;
+        background-color: brown;
+        color: black;
+        border-radius: 5px;
+    }
+    #navbar{
+        height: 50px;
+        background: none;
+        min-width: 500px;
+        width: fit-content;
+    }
+    .background .title{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        background: none;
+        min-width: 500px;
+        width: fit-content;
+    }
+    .background .title>h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 35px;
+    }
+    .background .title h5{
+        font-size: 25px;
+    }
+    .opening .togetstarted{
+        background-color: red;
+        color: black;
+        border-radius: 10px;
+        width:180px;
+        height: 56px;
+        min-width: 180px;
+        position: absolute;
+        top: 520px;
+        left: 210px;
+        width: fit-content;
+    }
+    .enteryouremail{
+        height: 40px;
+        width: 350px;
+        border-radius: 5px;
+        background-color: white;
+        position: absolute;
+        top: 467px;
+        left: 120px;
+        
+        
+    }
+    .enteryouremail>p{
+        color: black;
+        margin-top: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .opening .togetstarted>p{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0%;
+        margin-top: 10px;
+        margin-left: 14px;
+    }
+    body{
+        background-color: black;
+    }
+    .trending>h2{
+        color:  white;
+        font-size: 40px;
+        font-family: sans-serif;
+        position: absolute;
+        left: 120px;
+    }
+    .topmovies .trending{
+        width: max-content;
+        padding-top: 40px;
+        padding-left: 100px;
+    }
+    .trending .india{
+        height: 35px;
+        width: 100px;
+        position: relative;
+        left: 60px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: solid white;
+        border-radius: 5px;
+        top: 100px;
+    }
+    .trending .india:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+    .trending .movies{
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        position: relative;
+        top: 100px;
+        left: 80px;
+        height: 35px;
+        width: 100px;
+        font-size: 20px;
+        font-family: sans-serif;
+        border: solid white;
+    }
+    .trending .movies:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+    .topmovies .top10 .khelkhelmein{
+        height: 300px;
+        width: 200px;
+        position: relative;
+        top: 150px;
+        left: 150px;
+        width: fit-content;
+        display: block;
+    }
+    .topmovies .top10 .kandal{
+        height: 300px;
+        width: 204px;
+        position: relative;
+        top: 162px;
+        left: 150px;
+        width: fit-content;
+        display: block;
+    }
+    .top10 .goat{
+        height: 350px;
+        width: 200px;
+        position: relative;
+        top: 170px;
+        left: 150px;
+        width: fit-content;
+        display: block;
+    }
+    .top10 .mathuvadalara{
+        height: 290px;
+        width: 200px;
+        position: relative;
+        top: 180px;
+        left: 150px;
+        width: fit-content;
+        display: block;
+    }
+    
+    .topmovies .top10{
+        height: max-content;
+       
+        width: max-content;
+        display: block;
+    }
+    .morereasonstojoin{
+        font-size: 40px;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        padding-left: 50px;
+       
+        display: block;
+        justify-content: space-around;
+        row-gap: 30px;
+        
+    }
+    .join .stories{
+        color: white;
+        border-radius: 10px;
+        width: 250px;
+        height: max-content;
+        background-color: gray;
+        border-style: groove;
+        column-gap: 20px;
+        display: block;
+        width: max-content;
+    }
+    .join .stories>p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding-left: 7px;
+        padding-top: 20px;
+    }
+    .join .plans{
+        color: white;
+        border-radius: 10px;
+        width: 250px;
+        height: 160px;
+        background-color: gray;
+        height: max-content;
+        border-style: groove;
+        display: block;
+        width: max-content;
+    }
+    .join .plans>p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding-left: 7px;
+        padding-top: 20px;
+    }
+    .join .kids{
+        color: white;
+        border-radius: 10px;
+        width: 307px;
+        height: 160px;
+        background-color: gray;
+        display: block;
+        
+        border-style: groove;
+        height: fit-content;
+    }
+    .join .kids>p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding-left: 7px;
+        margin-top: 22px;
+    }
+    .join .phone{
+        color: white;
+        border-radius: 10px;
+        width: 250px;
+        height: 160px;
+        background-color: gray;
+        display: block;
+        border-style: groove;
+        width: max-content;
+        height: fit-content;
+    }
+    .join .phone>p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding-left: 7px;
+        padding-top: 20px;
+    }
+    .join{
+        padding-left: 60px;
+        padding-right: 34px;
+        height: 200px;
+        display: block;
+        justify-content: space-between;
+    }
+    .questions .frequently_asked_questions{
+        color: white;
+        padding-left: 120px;
+        font-size: 40px;
+        padding-top: 150px;
+        width: fit-content;
+        height: fit-content;
+        padding-right: 150px;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .questions .whatisnetflix{
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+        width: 70%;
+        height: 50px;
+        position: absolute;
+        left: 13%;
+        
+    }
+    .questions .whatisnetflix>p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-top: 12px;
+        margin-left: 30px;
+    }
+    .questions .howmuchdoesnetflixcost{
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+        width: 71%;
+        height: 50px;
+        position: relative;
+        left: 12.5%;
+        top: 70px;
+        height: fit-content;
+    }
+    .questions .howmuchdoesnetflixcost>p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        top: 10px;
+        left: 20px;
+    }
+    .questions .wherecaniwatch{
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+        width: 71%;
+        height: 50px;
+        position: relative;
+        left: 12.5%;
+        top: 70px;
+        
+    }
+    .questions .wherecaniwatch>p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        margin-top: 20px;
+    }
+    .questions .howcanicancel{
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+        width: 71%;
+        height: 50px;
+        position: relative;
+        left: 12.5%;
+        top: 70px;
+    }
+    .questions .howcanicancel>p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        margin-top: 20px;
+    }
+    .questions .whatcaniwatchonnetflix{
+        background-color: gray;
+        color: white;
+        border-radius: 10px;
+        width: 71%;
+        height: 100px;
+        position: relative;
+        left: 12.5%;
+        top: 70px;
+        height: max-content;
+    }
+    .questions .whatcaniwatchonnetflix>p{
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: relative;
+        top: 3px;
+        left: 30px;
+        margin-top: 20px;
+    }
+    .questions{
+        height: 900px;
+    }
+    .questions .getstarted>p{
+        border-radius: 30px;
+        color: black;
+        background-color: red;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        height: 50px;
+        width: 160px;
+        font-size: 28px;
+        left: 43%;
+        top: 120px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+    }
+    .questions .getstarted{
+        padding-right: 150px;
+    }
+    .questions .getstarted>p:hover{
+        cursor: pointer;
+        background-color: brown;
+    }
+    .footerclass .call>p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 70px;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .footerclass .container .column1{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        list-style: none;
+        text-decoration: none;
+    }
+    .footerclass .container .column1 li:hover{
+        color: red;
+    
+    }
+    .footerclass .container .column1>ul{
+        list-style: none;
+    }
+    .footerclass .container .column2{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .footerclass .container .column2 li:hover{
+        color: red;
+    }
+    .footerclass .container .column2>ul{
+        list-style: none;
+    }
+    .footerclass .container .column3{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    .footerclass .container .column3 li:hover{
+        color: red;
+    }
+    .footerclass .container .column3>ul{
+        list-style: none;
+    }
+    .footerclass .container .column4{
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    .footerclass .container .column4 li:hover{
+        color: red;
+    }
+    .footerclass .container .column4>ul{
+        list-style: none;
+    }
+    .footerclass .container{
+        display: block;
+        column-gap: 50px;
+        padding-left: 130px;
+        padding-top: 40px;
+    }
+    .footerclass .bottom{
+        color: white;
+        
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-right: 90px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footerclass{
+        height: 350px;
+    }
+    .englishmovies .littlewomen{
+        height: 300px;
+        width: 200px;
+        display: block;
+    }
+    .englishmovies .seven{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+
+    }
+    .englishmovies .uncharted{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .englishmovies .underground{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .englishmovies{
+        
+        gap: 65px;
+        padding-left: 170px;
+        align-items: center;
+        display: block;
+        padding-top: 10px;
+    }
+    .trendingenglishmovies>p{
+        color: white;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding-top: 180px;
+        padding-left: 80px;
+    }
+    .trendinghindimovies>p{
+        color: white;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    .hindimovies .bhool{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+
+    }
+    .hindimovies .uljah{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+
+    }
+    .hindimovies .animal{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .hindimovies .ctrl{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .hindimovies{
+        display: block;
+        gap: 65px;
+        padding-left: 170px;
+        align-items: center;
+    }
+    .trendingkdramas{
+        color: white;
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        padding-left: 60px;
+    }
+    .kdramas .lovenextdoor{
+        height: 300px;
+        width: 200px;
+        display: block;
+    }
+    .kdramas .lovelyrunner{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .kdramas .queenoftears{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .kdramas .mydemon{
+        height: 300px;
+        width: 200px;
+        display: block;
+        padding-top: 10px;
+    }
+    .kdramas{
+        display: block;
+        gap: 65px;
+        padding-left: 170px;
+        align-items: center;
+    }
+
+}
